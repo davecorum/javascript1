@@ -13,3 +13,4 @@ console.log(firstName, lastName);
 
 /*DOUBLE LINE
           COMMENT*/
+console.log("I hope to gain more experience on javascript through this class. My favorite hobby is creating 3D models using a program called 'Blender'.");

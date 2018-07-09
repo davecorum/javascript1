@@ -56,3 +56,13 @@ let objectClassroom = new String("Room 1");
 
 //let userName = prompt("What's your name?", "User");
 //console.log(userName);
+
+let firstName = prompt("What's your first name?", "User");
+console.log(firstName);
+
+let lastName = prompt("What's your last name?", "User");
+alert(lastName);
+
+let userBirth = prompt("When's your birthday?", "01/10/98");
+confirm("Is " + userBirth + " your birthday?");  //ES6 wouldn't work
+alert(userBirth);

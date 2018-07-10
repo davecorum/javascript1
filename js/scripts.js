@@ -63,6 +63,15 @@ console.log(firstName);
 let lastName = prompt("What's your last name?", "User");
 alert(lastName);
 
-let userBirth = prompt("When's your birthday?", "01/10/98");
-confirm("Is " + userBirth + " your birthday?");  //ES6 wouldn't work
-alert(userBirth);
+
+//What I did
+// let userBirth = prompt("When's your birthday?", "01/10/98");
+// confirm("Is " + userBirth + " your birthday?");  //ES6 wouldn't work
+// alert(userBirth);
+
+
+
+//What Ryeker did
+let birthday = new Date(prompt("When is your birthday?", "02/11/97"));
+let confirmBday = confirm("Is ${birthday} your correct birthday?");
+if(confirmBday) alert("${birthday} is in fact your birthday!");

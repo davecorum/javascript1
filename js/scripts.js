@@ -65,8 +65,8 @@ let nonString = "50000";
 
 //TERNARY
 let money = 10;
-let currency = confirm("In dollars or not?");
-currency ? alert(`$${money}`) : alert(money);   //? true : false
+// let currency = confirm("In dollars or not?");
+// currency ? alert(`$${money}`) : alert(money);   //? true : false
 
 // let isAdult = confirm("Are you over 18?");
 // if(isAdult) {
@@ -83,7 +83,43 @@ currency ? alert(`$${money}`) : alert(money);   //? true : false
 //   alert("You are not old enough")
 // }
 
+let name = prompt("What's your name?", "User");
+let color = prompt("What's your favorite color?", "Red, Blue, Yellow, Orange, Pink, White, Purple, Black, Gray, Green");
 
+switch (color.toLowerCase()) {
+  case "red":
+    alert(`${name}, red's not very impressive...`);
+    break;
+  case "blue":
+    alert(`Ooh, I like that choice ${name}.`);
+    break;
+  case "yellow":
+    alert(`Why so yellow ${name}?`);
+    break;
+  case "orange":
+    alert(`Great choice ${name}!`);
+    break;
+  case "pink":
+    alert(`How pretty, ${name}.`);
+    break;
+  case "white":
+    alert(`That's a pretty bland choice ${name}/`);
+    break;
+  case "purple":
+    alert(`Purple's not a bad choice ${name}.`);
+    break;
+  case "black":
+    alert(`Damn ${name}, so edgy...`);
+    break;
+  case "gray":
+    alert(`Really ${name}? Gray's your favorite color?`);
+    break;
+  case "green":
+    alert(`Green's a pretty nice color ${name}.`);
+    break;
+  default:
+    alert(`Hey ${name}, I also like ${color}!`);
+}
 
 
 

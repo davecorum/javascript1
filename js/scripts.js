@@ -103,7 +103,7 @@ switch (color.toLowerCase()) {
     alert(`How pretty, ${name}.`);
     break;
   case "white":
-    alert(`That's a pretty bland choice ${name}/`);
+    alert(`That's a pretty bland choice ${name}.`);
     break;
   case "purple":
     alert(`Purple's not a bad choice ${name}.`);

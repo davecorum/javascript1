@@ -74,13 +74,75 @@ favoriteMovies.splice(1, 0, movie3);
 
 let titles = [];
 titles.push(favoriteMovies[0][0], favoriteMovies[1][0], favoriteMovies[2][0]);
-alert(titles);
+// alert(titles);
 
 let favAndLeast = [];
 favAndLeast.push(favoriteMovies[0], favoriteMovies[2]);
-console.log(favAndLeast);
+// console.log(favAndLeast);
 
-alert(favoriteMovies.length);
+// alert(favoriteMovies.length);
+
+
+//LOOPS
+
+//FOR
+// for (let i=0; i < 11; i++) {
+//   console.log(`The number is ${i * 10}!`);
+// }
+
+// const colors = ["blue", "purple", "green", "red", "aquamarine", "lavender", "dodgerblue"];
+// for(let index = 0; index < colors.length; index++) {
+//   console.log([index]);
+//   continue;
+//   console.log("Why can't you see me?");
+// }
+
+//WHILE
+// let counter = 0;
+// while (counter < 10) {
+//   console.log(`Before ${counter}`);
+//   counter++;
+//   console.log(`After ${counter}`);
+// }
+
+//FOR EACH
+// const captains = ["Kirk", "Picard", "Sisko", "Janeway", "Lorca"];
+// captains.forEach( (captain, index) => {
+//   console.log(captain, index);
+// })
+
+//FOR...OF
+const captains = ["Kirk", "Picard", "Sisko", "Janeway", "Lorca"];
+for (let captain of captains) {
+  console.log(`Hello Captain ${captain}`);
+}
+
+//FOR...IN is for OBJECTS
+const me = {
+  firstName: "David",
+  lastName: "Corum",
+  age: 16
+}
+
+for (let property in me) {
+  console.log(me[property]);
+}
+
+//TRY IT OUT #3
+let input = "Some movie"
+for (let i = 0; i < favoriteMovies.length; i++) {
+  if (input === favoriteMovies[i][0]) alert(`${favoriteMovies[i][0]}, ${favoriteMovies[i][1]}`)
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

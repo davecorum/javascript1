@@ -65,8 +65,12 @@ let logString = string => {
 string => (string.toUpperCase());
 string => string.toUpperCase();
 
-
-
+//TRY IT OUT #1
+function dogAge(string) {
+  let regularAge = prompt(string);
+  alert(regularAge * 7);
+}
+dogAge("What's your dog's age?")
 
 
 
